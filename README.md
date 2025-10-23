@@ -11,7 +11,7 @@ This repository contains our team portfolio project for the Software Engineering
 ## Deployed Website
 - Visit the site on GitHub Pages: [team-portfolio-project website](https://abdelhakben922.github.io/team-portfolio-project/)
 
-## Team Retrospective Analysis (≈300–350 words)
+## Team Retrospective Analysis 
 
 ### Most significant technical challenge
 Overall, the development was straightforward with few blocking issues. The most notable challenge was branch base management rather than code complexity. At times, feature branches were created from an outdated or incorrect base (neither `main` nor `develop`), which led to divergent histories. This caused some pull requests to show “no changes” because their commits already existed on the target branch under different SHAs. In one instance, a merge moved the `develop` branch in a way that made previously merged work appear to be missing. The underlying issue was inconsistent branching from the correct upstream state and, at least once, merging against an unintended history.
